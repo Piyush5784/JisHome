@@ -198,9 +198,10 @@ export default function App() {
 
           <div className="pt-10">
             <p>
-              if you're not happy, we're not happy.We work tirelessly <br /> to
-              make sure your experience is dilightful. That's why we offer{" "}
-              <br /> the happiness guarantee.
+              if you're not happy, we're not happy. <br className="md:hidden" />{" "}
+              We work tirelessly <br className="hidden md:block" /> to make sure
+              your experience is dilightful. That's why we offer <br /> the
+              happiness guarantee.
             </p>
             <div className="h-[0.5px] my-4 bg-gray-500 rounded"></div>
 

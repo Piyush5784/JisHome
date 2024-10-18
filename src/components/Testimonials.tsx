@@ -42,7 +42,7 @@ const Testimonials = () => {
               are saying.
             </h1>
             <h3 className="text-xl mb-5 font-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We have tried our best to make our customers happy
             </h3>
             <div className="text-center mb-10">
               <span className="inline-block w-1 h-1 rounded-full bg-black ml-1"></span>

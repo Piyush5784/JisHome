@@ -1,7 +1,6 @@
 import { RiSparkling2Line } from "react-icons/ri";
 import ButtonWithGlow from "./ButtonWithGlow";
 import Topbar from "./Topbar";
-import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <div className="lg:mx-20 h-screen p-5">

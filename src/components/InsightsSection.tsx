@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const InsightsSection = () => {
   return (
-    <div className="p-5">
+    <div className="p-5 pt-20 md:pt-0">
       <Insights />
       <div className="flex flex-col md:flex-row items-center justify-center md:gap-60 gap-20">
         {/* Image with animation */}

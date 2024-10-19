@@ -1,3 +1,4 @@
+import Accordion from "./components/FaqSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import InsightsSection from "./components/InsightsSection";
@@ -34,6 +35,7 @@ export default function App() {
         <Testimonials />
       </div>
 
+      <Accordion />
       <section className="bg-white px-5 w-full md:px-40">
         <div className=" md:px-6 py-12 mx-auto">
           <div className="text-center ">

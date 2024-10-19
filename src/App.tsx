@@ -33,6 +33,26 @@ export default function App() {
       <div>
         <Testimonials />
       </div>
+
+      <section className="bg-white px-5 w-full md:px-40">
+        <div className=" md:px-6 py-12 mx-auto">
+          <div className="text-center ">
+            <p className="  text-black font-bold text-4xl">Contact us</p>
+
+            <h1 className="mt-2 text-2xl font-semibold  md:text-3xl  text-black">
+              We’d love to hear from you
+            </h1>
+
+            <p className="mt-3 text-gray-500 ">Chat to our friendly team.</p>
+          </div>
+
+          <img
+            className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96"
+            src="/grpImage.jpeg"
+            alt="reload"
+          />
+        </div>
+      </section>
       <div>
         {" "}
         <Footer />

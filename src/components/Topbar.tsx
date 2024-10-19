@@ -1,15 +1,21 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import Button from "./Button";
+import { RxCross1 } from "react-icons/rx";
 
 const Topbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const navItems = ["Home", "About", "Services", "Pages", "Contact", "Blog"];
   return (
-    <div className="h-[150px]">
+    <motion.div
+      initial={{ y: "-400px" }}
+      animate={{ y: "0px" }}
+      className="h-[150px] duration-500"
+    >
       <div className="rounded-full border  shadow-lg flex justify-between m-4 mt-0 p-4 items-center">
-        <a href="logo" className="text-xl font-semibold">
-          MyLogo
+        <a href="logo" className="text-xl pl-1 font-semibold">
+          JisHome
         </a>
         <div className="md:flex gap-10 hidden ">
           {navItems.map((item, idx) => (
@@ -25,7 +31,7 @@ const Topbar = () => {
           <Button>Sign up Free </Button>
         </div>
         <div className="md:hidden" onClick={() => setShowMenu((c) => !c)}>
-          <FiMenu size={25} />
+          {showMenu ? <RxCross1 size={25} /> : <FiMenu size={25} />}
         </div>
       </div>
 
@@ -37,7 +43,7 @@ const Topbar = () => {
         <div className="border-b w-full text-center p-2">
           {navItems.map((item, idx) => (
             <div key={idx} className="w-full text-center border-b p-2">
-              <a href="Contact" className="hover:underline hover:text-white">
+              <a href="Contact" className="hover:underline">
                 {item}
               </a>
             </div>
@@ -49,7 +55,7 @@ const Topbar = () => {
           <Button>Sign up free</Button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -39,7 +39,7 @@ const ProjectsSection = () => {
             viewport={{ once: true }}
           >
             <img
-              src={"/CarouselImage.jpg"}
+              src={"/CarouselImageNew.jpg"}
               height={350}
               width={350}
               alt="reload"
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
             viewport={{ once: true }}
           >
             <img
-              src={"/CarouselImage3.jpg"}
+              src={"/ContentImageNew4.jpg"}
               height={350}
               width={350}
               alt="reload"
@@ -79,7 +79,7 @@ const ProjectsSection = () => {
             viewport={{ once: true }}
           >
             <img
-              src={"/CarouselImage2.jpg"}
+              src={"/CarouselImageNew2.jpg"}
               height={350}
               width={350}
               alt="reload"

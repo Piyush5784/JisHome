@@ -1,5 +1,7 @@
-import { GoArrowUp } from "react-icons/go";
 import { motion } from "framer-motion";
+import { BsInstagram } from "react-icons/bs";
+import { FaLocationDot } from "react-icons/fa6";
+import { GoArrowUp } from "react-icons/go";
 
 const Footer = () => {
   return (
@@ -58,6 +60,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
+              onClick={() => (window.location.href = "mailto:info@jishome.com")}
             >
               Email: <br />
               info@jishome.com
@@ -69,7 +72,9 @@ const Footer = () => {
               transition={{ duration: 0.5, delay: 0.8 }}
             >
               Phone: <br />
-              888-888-888
+              +91 9085883000
+              <br />
+              +91 7099002100
             </motion.p>
             <motion.p
               className="pb-10"
@@ -77,8 +82,16 @@ const Footer = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.0 }}
             >
+              {" "}
               Address: <br />
-              123 High Street London, <br /> SW1A 1AA United <br /> Kingdom
+              <div className="flex items-center justify-start">
+                <FaLocationDot />
+                Athgoan (Balaji point)
+              </div>
+              <div className="flex items-center justify-start mt-1">
+                <FaLocationDot />
+                GS Road (ABC)
+              </div>
             </motion.p>
           </div>
           <div>
@@ -96,8 +109,17 @@ const Footer = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              Instagram
+              <a
+                className="flex justify-center items-center gap-2 hover:underline cursor-pointer"
+                href="https://www.instagram.com/jainInteriorsolutions"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsInstagram />
+                jainInteriorsolutions
+              </a>
             </motion.p>
+
             <motion.p
               className="pb-10 hover:underline cursor-pointer"
               initial={{ opacity: 0, y: 20 }}

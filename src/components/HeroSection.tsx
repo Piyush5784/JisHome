@@ -16,7 +16,7 @@ const HeroSection = () => {
           <p className="text-6xl">
             Beautiful Designs <br /> For Everyone
           </p>
-          <p className="font-light pt-5">
+          <p className="font-light pt-5 ">
             Transform your living spaces into a reflection of your unique style.
             Whether you're dreaming of a modern, <br /> minimalist home or a
             cozy, rustic retreat, our team at @info will bring your vision to

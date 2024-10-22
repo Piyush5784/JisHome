@@ -67,7 +67,7 @@ const Steps = () => {
           viewport={{ once: true }}
         >
           <img
-            src={"/ContentImage2.jpg"}
+            src={"/image.png"}
             alt="reload"
             height={300}
             width={500}

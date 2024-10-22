@@ -7,7 +7,6 @@ import PricingSection11 from "./components/PricingSection";
 import ProjectsSection from "./components/ProjectsSection";
 import Services from "./components/Services";
 import Steps from "./components/Steps";
-import { Team } from "./components/TeamSection";
 import Testimonials from "./components/Testimonials";
 
 export default function App() {
@@ -35,7 +34,7 @@ export default function App() {
       <div>
         <Testimonials />
       </div>
-      <Team />
+      {/* <Team /> */}
       <Accordion />
       <section className="bg-white px-5 w-full md:px-40">
         <div className=" md:px-6 py-12 mx-auto">
@@ -51,7 +50,7 @@ export default function App() {
 
           <img
             className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96"
-            src="/grpImage.jpeg"
+            src="/heroImageNew.jpg"
             alt="reload"
           />
         </div>

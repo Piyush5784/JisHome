@@ -16,7 +16,7 @@ const Topbar = () => {
       >
         <div className="rounded-full border  shadow-lg flex justify-between m-4 mt-0 p-4 items-center">
           <a href="logo" className="text-xl pl-1 font-semibold">
-            JisHome
+            JainInteriors
           </a>
           <div className="md:flex gap-10 hidden ">
             {navItems.map((item, idx) => (

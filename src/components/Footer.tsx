@@ -85,7 +85,7 @@ const Footer = () => {
               {" "}
               Address: <br />
               <div
-                className="flex items-start mt-2 justify-start cursor-pointer"
+                className="flex items-start mt-2 hover:underline justify-start cursor-pointer"
                 onClick={() =>
                   window.open(
                     "https://www.google.com/maps/search/?api=1&query=Jain+Interiors+Athgoan+Balaji+point",
@@ -102,7 +102,7 @@ const Footer = () => {
                 </div>
               </div>
               <div
-                className="flex items-start pt-2 justify-start mt-1 cursor-pointer"
+                className="flex items-start pt-2 hover:underline justify-start mt-1 cursor-pointer"
                 onClick={() =>
                   window.open(
                     "https://www.google.com/maps/place/Jain+Interior+Solutions/@26.1687441,91.7569278,15z/data=!4m10!1m2!2m1!1sJain+Interiors+GS+Road+ABC!3m6!1s0x375a599b846ee2a7:0xfa45c3a210f904f6!8m2!3d26.1615589!4d91.7720505!15sChpKYWluIEludGVyaW9ycyBHUyBSb2FkIEFCQ1ocIhpqYWluIGludGVyaW9ycyBncyByb2FkIGFiY5IBDmhhcmR3YXJlX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5pTFRadGJtbEJSUkFC4AEA!16s%2Fg%2F11y6fxv5wd?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D",

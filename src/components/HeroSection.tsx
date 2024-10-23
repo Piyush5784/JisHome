@@ -19,8 +19,8 @@ const HeroSection = () => {
           <p className="font-light pt-5 ">
             Transform your living spaces into a reflection of your unique style.
             Whether you're dreaming of a modern, <br /> minimalist home or a
-            cozy, rustic retreat, our team at @info will bring your vision to
-            life.
+            cozy, rustic retreat, our team at JainInteriors will bring your
+            vision to life.
           </p>
           <div className="flex gap-4 p-3">
             <ButtonWithGlow>Get Started</ButtonWithGlow>

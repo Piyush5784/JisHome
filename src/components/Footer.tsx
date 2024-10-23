@@ -84,13 +84,39 @@ const Footer = () => {
             >
               {" "}
               Address: <br />
-              <div className="flex items-center justify-start">
-                <FaLocationDot />
-                Athgoan (Balaji point)
+              <div
+                className="flex items-start mt-2 justify-start cursor-pointer"
+                onClick={() =>
+                  window.open(
+                    "https://www.google.com/maps/search/?api=1&query=Jain+Interiors+Athgoan+Balaji+point",
+                    "_blank"
+                  )
+                }
+              >
+                <div>
+                  <FaLocationDot className="mt-1" />
+                </div>
+                <div className="max-w-xs">
+                  Jain Interiors Athgoan (Balaji point) opp. Marwari Hospital &
+                  Research Centre, Guwahati, Assam 781001
+                </div>
               </div>
-              <div className="flex items-center justify-start mt-1">
-                <FaLocationDot />
-                GS Road (ABC)
+              <div
+                className="flex items-start pt-2 justify-start mt-1 cursor-pointer"
+                onClick={() =>
+                  window.open(
+                    "https://www.google.com/maps/place/Jain+Interior+Solutions/@26.1687441,91.7569278,15z/data=!4m10!1m2!2m1!1sJain+Interiors+GS+Road+ABC!3m6!1s0x375a599b846ee2a7:0xfa45c3a210f904f6!8m2!3d26.1615589!4d91.7720505!15sChpKYWluIEludGVyaW9ycyBHUyBSb2FkIEFCQ1ocIhpqYWluIGludGVyaW9ycyBncyByb2FkIGFiY5IBDmhhcmR3YXJlX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5pTFRadGJtbEJSUkFC4AEA!16s%2Fg%2F11y6fxv5wd?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D",
+                    "_blank"
+                  )
+                }
+              >
+                <div>
+                  <FaLocationDot className="mt-1" />
+                </div>
+                <div className=" max-w-xs">
+                  Jain Interiors GS Road (ABC) opposite Rajib Bhawan, near Dona
+                  Planet, Guwahati, Assam 781005
+                </div>
               </div>
             </motion.p>
           </div>

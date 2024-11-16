@@ -6,7 +6,7 @@ body {
   font-family: "Inter";
 }
 .hero {
-  background-image: url("/heroImageNew3.jpg");
+  background-image: url("/heroImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

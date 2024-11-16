@@ -19,6 +19,7 @@ export default function App() {
       <Steps />
       <ProjectsSection />
       <PricingSection11 />
+
       <Services />
 
       <div className=" bg-customBlack text-white md:h-[270px]">
@@ -50,7 +51,7 @@ export default function App() {
 
           <img
             className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96"
-            src="/heroImageNew.jpg"
+            src="/grpImage.jpeg"
             alt="reload"
           />
         </div>

@@ -16,7 +16,7 @@ const InsightsSection = () => {
           viewport={{ once: true }}
         >
           <img
-            src={"/ContentImageNew.jpg"}
+            src={"/ContentImage.jpg"}
             alt="reload"
             height={300}
             width={500}
